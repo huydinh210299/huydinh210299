@@ -14,6 +14,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: b8d1f35f9d82df7c25f2df21b1e11537da72ac6f
+          GITHUB_TOKEN: 8b1ac3e72ac249fef5626d74d87ac48240f6f8d0
         with:
           USERNAME: ${{ github.repository_owner }}
